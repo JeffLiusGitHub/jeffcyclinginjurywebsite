@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    ViewBag.BodyStyle = "";
+}
+    <script type="text/javascript">loopy()
+    function loopy() {
+        var sWord = ""
+        while (sWord != "sportsaholics") {
+            sWord = prompt("Please enter password")
+        }
+        alert("Welcome")
+    }</script>
+
+    <section id="home" class="main-banner parallaxie" style="background: url('/Content/images/bg.png')">
+        <div class="heading">
+            <h1>Say bye to injuries</h1>
+            <h3 class="cd-headline clip is-full-width">
+                <span>Cycling </span>
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">Safest</b>
+                    <b>Healthiest</b>
+                </span>
+                <div class="btn-ber">
+                    <a class="get_btn hvr-bounce-to-top" href="@Url.Action("Index", "Education")">Learn More</a>
+                    <!--<a class="learn_btn hvr-bounce-to-top" href="#">Cycling Map</a>-->
+                </div>
+            </h3>
+        </div>
+    </section>
+
+    <div id="services" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Sportsaholics</h3>
+                <p>Are you going to start a cycling journey?</p>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="@Url.Action("Index", "Education")">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-books"></i>
+                            </div>
+                            <h2>Education</h2>
+                            <p>Know the necessary and essential Cycling information for road rules, bicycle components and traffic components.</p>
+                        </div>
+                    </a>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <a href="@Url.Action("Index", "QuizIndex")">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-exam-1"></i>
+                            </div>
+                            <h2>Trivia</h2>
+                            <p>Test your knowledge of bicycle equipment and road rules.</p>
+                        </div>
+                        </a>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <a href="@Url.Action("Index", "Map")">
+                        <div class="services-inner-box">
+                            <div class="ser-icon">
+                                <i class="flaticon-gps"></i>
+                            </div>
+                            <h2>Crash Map</h2>
+                            <p>This map shows all the bicycle crashes that happened across Victoria from 2013 to 2019. </p>
+                        </div>
+                    </a>
+                </div><!-- end col -->
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+

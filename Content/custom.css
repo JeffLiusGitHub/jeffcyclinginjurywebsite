@@ -1,0 +1,72 @@
+.body-no-banner .navbar-dark {
+    background-color: #000;
+}
+
+.body-no-banner nav + .section {
+    margin-top: 72px;
+}
+
+/* menu */
+#mainNav.navbar-shrink .navbar-brand img.logo,
+.logo {
+    max-width: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link::after,
+.hvr-bounce-to-top::before,
+.services-inner-box::after,
+.filter-button-group button.active,
+#mainNav.navbar-shrink .navbar-nav .nav-link::after {
+    background: #52c596;
+}
+
+#mainNav.navbar-shrink {
+    background-color: #000;
+}
+
+    #mainNav.navbar-shrink .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+/* homepage */
+.services-inner-box {
+    height: 230px;
+}
+
+/* Education */
+.gallery-grid {
+    height: 510px;
+    margin-bottom: 10px;
+}
+
+.post-info {
+    height: 170px;
+}
+
+#content .tip {
+    background: lightyellow;
+    border-radius: 10px;
+}
+
+    #content .tip .tip-icon {
+        display: inline-block;
+        width: 10%;
+        padding: 1.2em 0;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    #content .tip .tip-icon i {
+        font-size: 36px;
+        line-height: 1em;
+    }
+
+    #content .tip .tip-content {
+        display: inline-block;
+        width: 80%;
+        padding: 1.2em 2% .2em;
+    }
