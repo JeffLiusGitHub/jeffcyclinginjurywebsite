@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'JeffLiuBikeInjuryWebsite'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b6507bcd0b04e2083199333ec72c0f2 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1dc1e61753a542cdb237b1efc9af9bef }}
         package: .
